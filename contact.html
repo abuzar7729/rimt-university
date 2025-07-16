@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | RIMT University</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>RIMT University</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <h2 class="page-title">Contact Us</h2>
+    <p class="subtitle">We'd love to hear from you. Get in touch using the form below!</p>
+
+    <div class="contact-container">
+      <!-- ✅ Updated Formspree Form -->
+      <form class="contact-form" action="https://formspree.io/f/mnndejyv" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <!-- Optional Redirect -->
+        <input type="hidden" name="_redirect" value="thank-you.html">
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Campus Address</h3>
+        <p>RIMT University, Punjab - 140401</p>
+
+        <h3>Email</h3>
+        <p>info@rimt.ac.in</p>
+
+        <h3>Phone</h3>
+        <p>+91 9635192398</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RIMT University. All rights reserved.</p>
+  </footer>
+</body>
+</html>
